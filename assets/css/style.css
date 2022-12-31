@@ -1,0 +1,435 @@
+/* ===== GOOGLE FONTS ===== */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+/*===== VARIABLES =====*/
+:root {
+  --header-height: 3.5rem;
+  /* ===== FONT AND TYPOGRAPHY ===== */
+  --body-font: "poppins", sans-serif;
+  --title-font: "Montserrat", sans-serif;
+  --subtitle-font: "Dancing Script", cursive;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  /* ===== COLORS ===== */
+  --body-color: #fff;
+  --container-color: #071a52;
+  --section-color: #086972;
+  --text-green: #17b978;
+  --apple-green: #a7ff83;
+  --light-text: #d8eff0;
+  /* ===== FONT WEIGHT ===== */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /* ===== Z INDEX ===== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+@media screen and (min-width: 1200px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+/* ===== BASE ===== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+}
+h1,
+h2,
+h3 {
+  font-weight: var(--font-medium);
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.section-title {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  font-family: var(--title-font);
+  margin-bottom: 1.5rem;
+}
+.section-paragraph {
+  margin-bottom: 2.5rem;
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+}
+/*=== SCROLL BAR ===*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #17b978cc;
+  border-radius: 0.5rem;
+}
+/* ===== HEADER ===== */
+#header {
+  background-color: var(--text-green);
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+}
+.language-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 11px;
+  display: flex;
+  gap: .75rem;
+}
+.language-btn img {
+  width: 40px;
+  cursor: pointer;
+}
+.flag-active {
+  padding: 4px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+/* #esFlag {
+  display: block;
+} */
+nav {
+  margin: auto;
+}
+nav a {
+  font-size: 32px !important;
+}
+nav span {
+  font-weight: 700;
+}
+nav .container-fluid {
+  display: flex;
+  align-items: center;
+}
+nav .container-fluid a {
+  margin: auto;
+  font-size: var(--h1-font-size);
+  color: var(--body-color);
+  padding: 0 1.25rem;
+  font-weight: var(--font-medium);
+}
+li {
+  list-style: none;
+}
+span {
+  display: block;
+}
+/* ===== HOME ===== */
+#home {
+  height: 1090px;
+  /* padding-top: 2.5rem; */
+  background-color: var(--text-green);
+  clip-path: polygon(0 0, 100% 0, 100% 83%, 73% 95%, 33% 85%, 0 85%);
+}
+#home .row {
+  gap: 2rem;
+}
+#home .text-col {
+  padding-inline: 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+#home .text-col .section-paragraph {
+  color: #fff;
+}
+.home-btn {
+  color: #fff;
+  justify-content: center;
+  background-color: var(--container-color);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  transition: background 0.3s;
+  margin-bottom: 1.5rem;
+}
+.home-btn:hover {
+  background-color: #071a52f3;
+}
+/*===== WHAT WE OFFER =====*/
+#about {
+  padding-top: 4rem;
+}
+#about .span-subtitle {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+}
+#about h2 {
+  font-size: var(--biggest-font-size);
+  color: var(--text-green);
+}
+.other-services-col {
+  display: flex;
+  align-items: initial;
+  flex-direction: column;
+}
+.other-services-container {
+  padding-left: 0;
+}
+.other-services-container li {
+  display: flex;
+  gap: .25rem;
+}
+.other-services-container li span{
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  font-size: var(--h2-font-size);
+}
+.other-services-container li i {
+  color: var(--text-green);
+  font-size: 1.5rem !important;
+}
+.other-services-title {
+  margin-bottom: 1rem;
+}
+.other-services-paragraph {
+  margin-bottom: 1rem;
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+}
+
+/*===== WHY TWITTER =====*/
+#whytwitter{
+  clip-path: polygon(0% 19%, 0% 85%, 49% 90%, 77% 87%, 92% 87%, 97% 87%, 100% 83%, 100% 16%, 78% 17%, 23% 15%);
+  background-color: var(--text-green);
+  padding: 10rem 0;
+}
+#whytwitter .container {
+   margin: 4rem 0;
+}
+#whytwitter span {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--body-color);
+}
+.why-title {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--body-color);
+  margin-bottom: 1.5rem;
+}
+.why-paragraph {
+  color: var(--body-color);
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+}
+
+/*===== 15MIN CALL =====*/
+#callexplanation .call-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+#callexplanation .section-title {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1.5rem;
+}
+#callexplanation .section-paragraph {
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+}
+#callexplanation .button {
+  color: #fff;
+  justify-content: center;
+  background-color: var(--container-color);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  transition: background 0.3s;
+}
+#callexplanation .button:hover {
+  background-color: #071a52f3;
+}
+/*===== CALL LIST =====*/
+.call-info .call-info-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
+.call-list {
+  padding-left: 0;
+}
+.call-list .call-list-items {
+  display: flex;
+  gap: .25rem;
+  margin-bottom: 1rem;
+}
+.call-list .call-list-items i {
+  font-size: 1.5rem;
+  color: var(--text-green);
+}
+.call-list .call-list-items .item {
+  margin-top: 6px;
+}
+
+/*===== FOOTER =====*/
+#footer {
+  background-color: var(--text-green);
+  clip-path: polygon(0% 39%, 25% 36%, 51% 39%, 74% 36%, 93% 35%, 100% 36%, 100% 100%, 0% 100%);
+}
+#footer .container {
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer .container .brand-footer {
+padding-top: 6rem;
+color: #fff;
+font-size: var(--h1-font-size);
+display: flex;
+}
+#footer .container .brand-footer span {
+  font-weight: var(--font-semi-bold);
+}
+#footer .copy-span {
+  color: #fff;
+}
+
+/*===== MEDIAS =====*/
+@media screen and (min-width: 476px) {
+  /*=== HOME ===*/
+  #home {
+    height: 1180px;
+  }
+  /*=== WHY TWITTER ===*/
+  #whytwitter .container{
+    margin: 8rem auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  /*=== HOME ===*/
+  #home {
+    height: 1324px;
+  }
+  /*=== 15MIN CALL ===*/
+  #callexplanation .call-text-wrapper {
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  /*=== NAV ===*/
+  #header {
+    display: block;
+  }
+  #header .section-title {
+    margin: 0;
+  }
+  /*=== HOME ===*/
+  #home {
+    height: 1024px;
+  }
+  #home .container {
+    margin-top: 10rem;
+  }
+  #home .container .row {
+    display: grid;
+    grid-template-columns: 436px 460px;
+    gap: 4rem;
+  }
+  #home .container .row .text-col {
+    justify-content: center;
+  }
+  .language-btn {
+    top: 5px;
+    right: 24px;
+  }
+  /*=== WHAT WE OFFER ===*/
+  #about .row{
+    display: grid;
+    grid-template-columns: 460px 360px;
+    column-gap: 4rem;
+    justify-content: center;
+  }
+  /*=== WHY TWITTER ===*/
+  #whytwitter .row{
+    display: grid;
+    grid-template-columns: 387px 460px;
+    column-gap: 7rem;
+  }
+  /*=== 15MIN CALL ===*/
+  #callexplanation .row{
+    display: grid;
+    grid-template-columns: 387px 460px;
+    column-gap: 7rem;
+    justify-content: center;
+  }
+  .call-info-col {
+    order: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*=== HOME ===*/
+  #home .container .row {
+    grid-template-columns: 490px 537px;
+    column-gap: 7rem;
+  }
+  /*=== WHAT WE OFFER ===*/
+  #about .container .row {
+    grid-template-columns: 620px 407px;
+    column-gap: 7rem;
+  }
+  /*=== WHY TWITTER ===*/
+  #whytwitter .container .row {
+    grid-template-columns: 576px 460px;
+  }
+  #whytwitter .img-col {
+    align-items: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /*=== HOME ===*/
+  #home .container .row {
+    justify-content: center;
+  }
+  /*=== WHAT WE OFFER ===*/
+  #about .container .row {
+    grid-template-columns: 620px 426px;
+    justify-content: center;
+  }
+  #about .section-paragraph {
+    padding-inline: 0 3rem;
+  }
+  /*=== WHY TWITTER ===*/
+  #whytwitter .container .row {
+    justify-content: center;
+  }
+  /*=== 15MIN CALL ===*/
+  #callexplanation .container .row {
+    grid-template-columns: 400px 520px;
+  }
+}

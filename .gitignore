@@ -1,0 +1,10 @@
+#ignore node_modules
+node_modules
+
+#ignore json packages
+package.json
+package-lock.json
+
+#ignore languages .json
+en.json
+es.json
