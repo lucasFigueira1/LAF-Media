@@ -55,6 +55,9 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
 }
+*::selection {
+  background-color: rgba(255, 255, 255, 0.446);
+}
 h1,
 h2,
 h3 {

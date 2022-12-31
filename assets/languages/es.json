@@ -1,0 +1,38 @@
+{
+  "home": {
+    "home-title": "Ayudamos a las empresas de productos de comercio electrónico e información a producir un ROI escalofriante a través de Twitter Automation.",
+    "home-paragraph": "Deje de perder tiempo y dinero en campañas ineficasez.<br /> Es nuestro momento de generar tratos y conexiones únicas por vos.",
+    "home-button": "Reserva tu llamada"
+  },
+
+  "about": {
+    "about-subtitle": "Qué ofrecemos",
+    "about-title": "AUTOMATIZACIÓN DE TWITTER",
+    "about-paragraph": "Nos concentramos en Hacer nuestro trabajo de la mejor manera!<br />Somos una agencia que se dedica principalmente a la creación de contenido en Twitter.<br />Pero sabemos lo que podemos aportar... Por eso Tambien ofrecemos servicios de IT.",
+    "other-services-title": "Otros servicios que ofrecemos",
+    "other-services-subtitle": "SERVICIOS IT",
+    "other-services-paragraph": "Tenemos un grandioso equipo de desarrolladores dispuestos a ayudarte",
+    "other-services-item1": "Blogs Website",
+    "other-services-item2": "Desarrollo Web",
+    "other-services-item3": "Email Templates"
+  },
+
+  "whytwitter": {
+    "why-subtitle": "Por qué Twitter?",
+    "why-title": "Socios Limitados",
+    "why-paragraph": "Twitter es uno de los mejores lugares para atraer LPs para tu próximo fondo. Hay una próspera comunidad de inversores en Twitter buscando el próximo lugar para depositar sus recursos.",
+    "how-title": "Cómo sería?",
+    "how-paragraph": "Publicamos dos Tweets semanales basados en tu misión, incluyendo un Call-to-Action al final que dirige a los LP potenciales a tu bandeja de entrada."
+  },
+
+  "callexplanation": {
+    "call-title": "Llamada Gratis de 15 Minutos",
+    "call-subtitle": "Al final de esta llamada, tendrás una clara comprensión de los próximos pasos que puedes tomar para que su empresa comience a generar resultados consistentes en línea a través de Twitter.<br /><br /> Encuentra un lugar en el calendario de Lucas para programar la llamada hoy mismo, esperamos hablar contigo pronto!",
+    "call-button": "Reserva una llamada",
+    "call-info-title": "Esta llamada es perfecta para:",
+    "call-info-item1": "Marcas que buscan atraer nuevas empresas <b>pronto.</b>",
+    "call-info-item2": "Aquellos que entienden el valor de Twitter como una <b>fuente de ofertas & LPs.</b>",
+    "call-info-item3": "Empresas que buscan <b>establecerse<b/> en el ecosistema de Twitter.",
+    "call-info-item4": "Aquellos que buscan una agencia confiable que pueda <b>hacer de su empresa una prioridad.</b>"
+  }
+}
