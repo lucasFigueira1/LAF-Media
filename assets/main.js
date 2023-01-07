@@ -53,3 +53,18 @@ languageFlags.addEventListener("click", (e) => {
   // Saving current lang that user chose
   window.localStorage.setItem('selected-lang', actualLang)
 });
+
+// SCROLL REVEAL ANIMATION 
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: '2500',
+  delay: '400'
+})
+
+sr.reveal(`.text-col`)
+sr.reveal(`.img-col`)
+sr.reveal(`.other-services-col`)
+sr.reveal(`.why-twitter-col`)
+sr.reveal(`.call-info-col`)
+sr.reveal(`.call-info-img`)
