@@ -17,9 +17,9 @@
   --smaller-font-size: 0.75rem;
   /* ===== COLORS ===== */
   --body-color: #fff;
-  --container-color: #071a52;
+  --container-color: #ff006e;
   --section-color: #086972;
-  --text-green: #17b978;
+  --text-green: #8338ec;
   --apple-green: #a7ff83;
   --light-text: #d8eff0;
   /* ===== FONT WEIGHT ===== */
@@ -87,7 +87,7 @@ img {
   border-radius: 0.5rem;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #17b978cc;
+  background-color: #ff006e;
   border-radius: 0.5rem;
 }
 /* ===== HEADER ===== */
@@ -175,7 +175,7 @@ span {
   margin-bottom: 1.5rem;
 }
 .home-btn:hover {
-  background-color: #071a52f3;
+  background-color: #ff006fce;
 }
 /*===== WHAT WE OFFER =====*/
 #about {
@@ -273,7 +273,7 @@ span {
   transition: background 0.3s;
 }
 #callexplanation .button:hover {
-  background-color: #071a52f3;
+  background-color: #ff006fce;
 }
 /*===== CALL LIST =====*/
 .call-info .call-info-title {
@@ -291,10 +291,13 @@ span {
 }
 .call-list .call-list-items i {
   font-size: 1.5rem;
-  color: var(--text-green);
+  color: var(--container-color);
 }
 .call-list .call-list-items .item {
   margin-top: 6px;
+}
+.last-call-explanation {
+  font-weight: 400 !important;
 }
 
 /*===== FOOTER =====*/

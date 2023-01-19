@@ -1,14 +1,13 @@
 {
     "home": {
       "home-title": "We Help creators and brands grow their audience, revenue, and impact.",
-      "home-paragraph": "You don't have a presence on Twitter.<br/> Let us help you, so that you can focus on making the best videos possible",
       "home-button": "Book a Call"
     },
   
     "about": {
       "about-subtitle": "What we offer",
-      "about-title": "TWITTER AUTOMATION",
-      "about-paragraph": "We focus on doing our job the best way!<br />We are an Agency that focus primary on Twitter.<br />But we know what we can bring... That’s why we also offer IT services.",
+      "about-title": "TIKTOK CONTENT CREATION",
+      "about-paragraph": "We focus on doing our job the best way!<br />We are an Agency that focus primary on TikTok.<br />But we know what we can bring... That’s why we also offer IT services.",
       "other-services-title": "Other services we offer",
       "other-services-subtitle": "IT SERVICES",
       "other-services-paragraph": "We have a great team of developers willing to help you",
@@ -18,11 +17,11 @@
     },
   
     "whytwitter": {
-      "why-subtitle": "Why Twitter?",
-      "why-title": "Limited Partners",
-      "why-paragraph": "Twitter is one of the best places to attract LPs for your next fund. There is a thriving community of investors on Twitter looking for the next place to park their resources.",
+      "why-subtitle": "Why TikTok?",
+      "why-title": "More visibility",
+      "why-paragraph": "TikTok is the most powerful social network to give visibility to your content. This is because with a simple clip you can attract many new people to your channel.",
       "how-title": "How So?",
-      "how-paragraph": "We post two weekly threads based on your mission, including a call-to-action at the end that directs potential LPs to your inbox. "
+      "how-paragraph": "We post weekly content based on our mission, increase the visibility of your channel."
     },
   
     "callexplanation": {
@@ -30,10 +29,10 @@
       "call-subtitle": "By the end of this call, you will have a clear understanding of the next steps you can take for your firm to start generating consistent results online through Twitter.<br /><br /> Find a time on Lucas’s calendar to schedule your call today and we look forward to speaking to you soon!",
       "call-button": "Book a Call",
       "call-info-title": "This call is perfect for:",
-      "call-info-item1": "Firms looking to attract new companies <b>early.</b>",
-      "call-info-item2": "Those who understand the value of Twitter as a <b>source of deals & LPs.</b>",
-      "call-info-item3": "Firms looking to <b>establish themselves</b> in the Twitter ecosystem.",
-      "call-info-item4": "Those looking for a reliable agency that can <b>make their firm a priority.</b>"
+      "call-info-item1": "Creators who want to increase the visibility of their content <b>quickly.</b>",
+      "call-info-item2": "Those who understand the value of TikTok as a <b>source of new followers</b>",
+      "call-info-item3": "Those looking to <b>establish</b> themselves as content creators.",
+      "call-info-item4": "Those looking for a reliable agency that can <b>make their content a priority</b>."
     }
   }
   
